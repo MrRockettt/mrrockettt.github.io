@@ -4,7 +4,7 @@ title: "How I Built My Portfolio Website"
 date: 2025-01-06
 categories: [web development, portfolio]
 tags: [HTML, CSS, JavaScript, React, Jekyll]
-author: "Your Name"
+author: "Salmon Kumar"
 ---
 
 ## Introduction

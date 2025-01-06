@@ -4,6 +4,7 @@ icon: fas fa-info-circle
 layout: page
 title: About
 permalink: /about/
+order: 4
 ---
 
 
@@ -11,9 +12,9 @@ Hi there! I'm a **Full Stack Developer** and a passionate **Security Researcher*
 
 ## As a Full Stack Developer
 I specialize in building dynamic, scalable, and responsive web applications. My skill set includes:  
-- Frontend frameworks like React.js.  
+- Frontend frameworks like React.js and Next.js.  
 - Backend development with technologies like Node.js and Django.  
-- Expertise in integrating APIs and making applications interactive.  
+- Expertise in integrating Rest APIs and making applications interactive.  
 
 I love creating projects that solve real-world problems and elevate user experiences.  
 
@@ -31,7 +32,6 @@ Feel free to reach out—let's build something incredible together!
 
 ## Connect with Me
 
-- [Link to your LinkedIn]
-- [Link to your Twitter]
-- [Link to your GitHub]
-- [Link to any other social media or personal website]
+- [LinkedIn](https://www.linkedin.com/in/mrrockettt)
+- [Twitter](https://x.com/mr_rockettt)
+- [GitHub](https://github.com/MrRockettt)
