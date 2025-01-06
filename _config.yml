@@ -16,7 +16,7 @@ timezone:
 
 title: MrRockettt # the main title
 
-tagline: A text-focused Jekyll theme # it will display as the subtitle
+tagline: Who Loves To Build and Break Websites !! # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
   My personal blog
@@ -35,7 +35,7 @@ social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
   name: Salmon Kumar
-  #email: salmonkumar22@gmail.com # change to your email address
+  email: salmonkumar22@gmail.com # change to your email address
   links:
     # The first element serves as the copyright owner's link
     - https://twitter.com/mr_rockettt # change to your Twitter homepage
