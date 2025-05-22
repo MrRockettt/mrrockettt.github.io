@@ -10,11 +10,11 @@ layout: default
     📍 Tirunelveli, Tamilnadu, India
     
   </div>
-  <img src="/MrRockettt.jpg" alt="Salmon Kumar" style="width: 150px; border-radius: 50%; box-shadow: 0 0 20px rgba(0,0,0,0.3);">
+  <img src="/MrRockettt.jpg" alt="Salmon Kumar" style="width: 160px; border-radius: 50%; box-shadow: 0 0 20px rgba(0,0,0,0.3);">
 
 </div>
 
-### [Resume](https://evil.com) | [Collab](/contact/)
+### [Resume](https://google.com/search?q=Salmon+Kumar) | [Collab](/contact/)
 
 
 ---
