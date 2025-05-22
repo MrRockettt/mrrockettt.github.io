@@ -14,7 +14,7 @@ layout: default
 
 </div>
 
-### [Resume](https://google.com/search?q=Salmon+Kumar) | [Collab](/contact/)
+### [Resume](https://drive.google.com/file/d/1EoFlDO_UCo-fqmq69g-KB5Q4CfMoCCc8/view?usp=drive_link) | [Collab](/contact/)
 
 
 ---
