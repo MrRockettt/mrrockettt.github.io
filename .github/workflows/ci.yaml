@@ -19,6 +19,8 @@ jobs:
         run: |
           chmod +x script/bootstrap
           chmod +x script/cibuild
+          chmod +x script/validate-html
+
 
       - name: build
         run: script/bootstrap
