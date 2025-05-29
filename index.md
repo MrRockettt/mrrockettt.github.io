@@ -29,7 +29,7 @@ I'm an **ethical hacker** who helps private & government organizations to improv
 - 🕵️‍♂️ OSINT and social engineering investigations
 - 🌐 Full-stack development using Django, React, Next.js, and more
 
-When I'm not hardening systems, I’m diving into challenges on **Hack The Box** and **TryHackMe** to sharpen my skills.
+When I'm not hardening systems, I'm diving into challenges on **Hack The Box** and **TryHackMe** to sharpen my skills !!
 
 ---
 
