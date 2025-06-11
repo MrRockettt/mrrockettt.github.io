@@ -21,7 +21,7 @@ layout: default
 
 ## 👽 About Me
 
-I'm an **ethical hacker** who helps private & government organizations to improve their cyber security controls. Currently working as a **Cybersecurity Engineer** with a strong foundation in both **development** and **offensive security**.  My core focus areas include,
+I'm an **ethical hacker** who helps private & government organizations to improve their cyber security controls. Currently working as a **Cyber Security Engineer** with a strong foundation in both **development** and **offensive security**.  My core focus areas include,
 
 - 🔍 Vulnerability Assessment & Penetration Testing (VAPT)
 - 🐞 Bug Bounty Hunter / Security Researcher
