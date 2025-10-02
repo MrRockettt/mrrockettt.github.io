@@ -25,7 +25,7 @@ Currently at **Talrop**, I focus on securing applications and infrastructure whi
 - **Penetration Testing:** Network, Web, API, Mobile (Android)  
 - **Tools & Frameworks:** Burp Suite, Nmap, Nessus, Wireshark, Postman, Metasploit  
 - **Programming & Scripting:** Python, Bash, JavaScript, C  
-- **Security Research:** Vulnerability Analysis, OSINT, Exploit Development  
+- **Security Research:** Vulnerability Analysis, OSINT, Exploit Development
 
 
 ---
