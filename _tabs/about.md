@@ -11,7 +11,7 @@ order: 4
 ## Hi, I'm Salmon Kumar 👋
 
 
-I'm a **Cybersecurity Engineer** specializing in **network, web application, and API penetration testing**. I help organizations identify vulnerabilities, assess risks, and strengthen their security posture.  
+I'm a **Cybersecurity Engineer** specializing in **Network, Web Application, and API Penetration Testing**. I help organizations identify vulnerabilities, assess risks, and strengthen their security posture.  
 
 With hands-on experience in **penetration testing, security research, and vulnerability analysis**, I also leverage **Linux and Bash scripting** to automate workflows and improve testing efficiency.  
 
