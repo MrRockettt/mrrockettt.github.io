@@ -6,37 +6,42 @@ permalink: /about/
 icon: fas fa-info-circle
 order: 4
 ---
+  
 
+## Hi, I'm Salmon Kumar 👋  
 
-## Hi, I'm Salmon Kumar 👋
+- Specializing in Network, Web, and API Penetration Testing.
+- Performing vulnerability assessments, security research, and delivering actionable reports.
+- Proficient in Linux, Bash scripting, workflow automation, and secure coding practices.
+- Currently at **Talrop**, securing applications, networks, and infrastructure through VAPT.
+- Aspiring Red Teamer, exploring advanced offensive security techniques and threat simulations.
 
+  
 
-I'm a **Cybersecurity Engineer** specializing in **Network, Web Application, and API Penetration Testing**. I help organizations identify vulnerabilities, assess risks, and strengthen their security posture.  
+---
 
-With hands-on experience in **penetration testing, security research, and vulnerability analysis**, I also leverage **Linux and Bash scripting** to automate workflows and improve testing efficiency.  
+### Skills  
 
-Currently at **Talrop**, I focus on securing applications and infrastructure while applying best practices in VAPT and participating in bug bounty programs. I continuously contribute to security initiatives and stay up to date with evolving cyber threats.
+- **Penetration Testing:** Network, Web, API, Mobile (Android), Secure Code Review, Cloud Security (AWS Basics)  
+- **Tools & Frameworks:** Burp Suite, Nmap, Nessus, Wireshark, Postman, Metasploit, OWASP ZAP, Docker, Git  
+- **Programming & Scripting:** Python, Bash, JavaScript, C, SQL  
+- **Security Research:** Vulnerability Analysis, OSINT, Exploit Development, Threat Modeling, CTF Challenges  
+- **Professional Skills:** Security Report Writing, Agile Workflows, Developer Collaboration  
 
 
 ---
 
-### Skills
+## 💼 Experience  
 
-- **Penetration Testing:** Network, Web, API, Mobile (Android)  
-- **Tools & Frameworks:** Burp Suite, Nmap, Nessus, Wireshark, Postman, Metasploit  
-- **Programming & Scripting:** Python, Bash, JavaScript, C  
-- **Security Research:** Vulnerability Analysis, OSINT, Exploit Development
+- **Talrop** – *Cybersecurity Engineer* (Jan 2025 – Present)  
+  - Conducting penetration testing and vulnerability assessments on networks, web apps, and APIs.  
+  - Performing endpoint security hardening and simulating real-world attack scenarios.  
+  - Researching emerging threats and delivering detailed security reports with remediation steps.  
 
-
----
-
-### Experience
-
-- **Talrop** – Cybersecurity Engineer (Jan 2025 – Present)  
-  Conducting penetration tests, vulnerability assessments, and security research on networks, web apps, and APIs.
-
-- **Talrop** – Full Stack Developer Intern (May 2024 – Dec 2024)  
-  Developed and maintained web applications, gaining practical software engineering experience.
+- **Talrop** – *Full Stack Developer Intern* (May 2024 – Dec 2024)  
+  - Designed and maintained web applications with a focus on secure coding practices.  
+  - Collaborated on backend APIs, database management, and deployment processes.  
+  - Worked in agile workflows, gaining strong hands-on experience in debugging and development.  
 
 ---
 
