@@ -1,0 +1,567 @@
+/* 
+ * NEOSPLOIT-Style Black & Red Theme for Chirpy
+ * Inspired by neosploit.github.io design
+ * 
+ * Instructions:
+ * 1. Create this file at: assets/css/jekyll-theme-chirpy.scss
+ * 2. Clear cache and rebuild your site
+ */
+
+---
+---
+
+@import "main";
+
+/* ============================================
+   NEOSPLOIT BLACK & RED THEME
+   ============================================ */
+
+:root {
+  /* Pure Black Backgrounds */
+  --body-bg: #000000;                    /* Pure black like NEOSPLOIT */
+  --main-bg: #000000;                    /* Main content black */
+  --card-bg: #0a0a0a;                    /* Slightly lighter for cards */
+  --mask-bg: #000000;
+  
+  /* Vibrant Red Accents */
+  --link-color: #ff0000;                 /* Pure red like NEOSPLOIT logo */
+  --link-hover-color: #ff3333;           /* Slightly brighter on hover */
+  --heading-color: #ffffff;              /* Pure white headings */
+  --btn-border-color: #ff0000;
+  --btn-backtotop-color: #ff0000;
+  --btn-backtotop-border-color: #ff0000;
+  
+  /* Text Colors - High Contrast */
+  --text-color: #e8e8e8;                 /* Almost white text */
+  --text-muted-color: #888888;           /* Muted gray */
+  --text-muted-hightlight-color: #aaaaaa;
+  
+  /* Sidebar - Pure Black */
+  --sidebar-bg: #000000;
+  --sidebar-muted-color: #888888;
+  --sidebar-active-color: #ff0000;       /* Red for active items */
+  --sidebar-hover-bg: rgba(255, 0, 0, 0.08);
+  --nav-cursor-color: #ff0000;
+  
+  /* Borders - Subtle Dark Gray */
+  --border-color: #1a1a1a;
+  --hr-color: #1a1a1a;
+  
+  /* Code Blocks */
+  --code-bg: #0a0a0a;
+  --highlighter-rouge-color: #ff3333;
+  --code-header-bg: #000000;
+  --code-header-muted-color: #666666;
+  --code-header-icon-color: #888888;
+  
+  /* Blockquotes */
+  --blockquote-border-color: #ff0000;
+  --blockquote-text-color: #d0d0d0;
+  
+  /* Tables */
+  --tb-odd-bg: #000000;
+  --tb-even-bg: #0a0a0a;
+  --tb-border-color: #1a1a1a;
+  
+  /* Footer */
+  --footer-bg-color: #000000;
+  --footer-border-color: #1a1a1a;
+  
+  /* Tags & Categories */
+  --tag-bg: #0a0a0a;
+  --tag-border-color: #333333;
+  --tag-hover-bg: rgba(255, 0, 0, 0.1);
+  --tag-shadow: rgba(255, 0, 0, 0.3);
+  
+  /* Search */
+  --search-bg: #0a0a0a;
+  --search-border-color: #1a1a1a;
+  --search-icon-color: #888888;
+  --input-focus-border-color: #ff0000;
+  
+  /* Scrollbar - Red Theme */
+  --scrollbar-track-bg: #000000;
+  --scrollbar-thumb-bg: #ff0000;
+  --scrollbar-thumb-hover-bg: #ff3333;
+  
+  /* Selection */
+  --selection-bg: rgba(255, 0, 0, 0.3);
+  
+  /* Buttons */
+  --btn-mb-color: #ff0000;
+  --btn-paginator-border-color: #1a1a1a;
+  --btn-paginator-hover-color: #ff0000;
+  --btn-text-color: #e8e8e8;
+  
+  /* Tooltips */
+  --tooltip-bg: #0a0a0a;
+  --tooltip-border-color: #ff0000;
+  
+  /* Prompts */
+  --prompt-tip-bg: rgba(255, 0, 0, 0.08);
+  --prompt-tip-icon-color: #ff0000;
+  --prompt-info-bg: rgba(255, 255, 255, 0.05);
+  --prompt-info-icon-color: #888888;
+  --prompt-warning-bg: rgba(255, 100, 0, 0.08);
+  --prompt-warning-icon-color: #ff6400;
+  --prompt-danger-bg: rgba(255, 0, 0, 0.1);
+  --prompt-danger-icon-color: #ff0000;
+  
+  /* Archive Timeline */
+  --timeline-color: #1a1a1a;
+  --timeline-node-bg: #ff0000;
+  --checkbox-color: #ff0000;
+  --checkbox-checked-color: #ff0000;
+  
+  /* TOC */
+  --toc-highlight: #ff0000;
+  
+  /* Post Metadata */
+  --post-meta-color: #888888;
+  
+  /* Categories/Tags Page */
+  --relate-post-date: #888888;
+  --lang-badge-bg: #0a0a0a;
+}
+
+/* ============================================
+   FORCE DARK MODE & HIDE TOGGLE
+   ============================================ */
+
+html[data-mode="dark"],
+html[data-mode="light"],
+html:not([data-mode]) {
+  /* All modes use dark scheme */
+  color-scheme: dark;
+}
+
+/* Hide mode toggle button */
+#mode-toggle {
+  display: none !important;
+  visibility: hidden !important;
+  pointer-events: none !important;
+}
+
+/* ============================================
+   NEOSPLOIT-STYLE ENHANCEMENTS
+   ============================================ */
+
+/* Body - Pure Black Background */
+body {
+  background-color: #000000;
+  color: var(--text-color);
+}
+
+/* Sidebar Styling */
+#sidebar {
+  background: #000000;
+  border-right: 1px solid #1a1a1a;
+  
+  .site-title a {
+    color: #ff0000 !important;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    
+    &:hover {
+      color: #ff3333 !important;
+    }
+  }
+  
+  .site-subtitle {
+    color: #888888;
+    font-style: italic;
+  }
+  
+  /* Navigation Links */
+  .nav-item {
+    a {
+      color: #e8e8e8;
+      
+      &:hover {
+        background-color: rgba(255, 0, 0, 0.08);
+        color: #ff0000;
+        border-left: 3px solid #ff0000;
+        padding-left: calc(1rem - 3px);
+      }
+    }
+    
+    &.active a {
+      color: #ff0000;
+      font-weight: 600;
+    }
+  }
+  
+  /* Social Icons */
+  .sidebar-bottom a {
+    color: #888888;
+    
+    &:hover {
+      color: #ff0000;
+    }
+  }
+}
+
+/* Main Content Area */
+#main-wrapper {
+  background-color: #000000;
+}
+
+#core-wrapper {
+  background-color: #000000;
+}
+
+/* Cards - Subtle Background */
+.card {
+  background-color: #0a0a0a;
+  border: 1px solid #1a1a1a;
+  transition: all 0.3s ease;
+  
+  &:hover {
+    border-color: #333333;
+    box-shadow: 0 4px 12px rgba(255, 0, 0, 0.1);
+  }
+}
+
+/* Links - Pure Red */
+a {
+  color: #ff0000;
+  text-decoration: none;
+  transition: color 0.2s ease;
+  
+  &:hover {
+    color: #ff3333;
+    text-decoration: none;
+  }
+}
+
+/* Headings - Pure White */
+h1, h2, h3, h4, h5, h6 {
+  color: #ffffff;
+  font-weight: 700;
+}
+
+/* Post Titles */
+.post-title {
+  color: #ffffff;
+  
+  a {
+    color: #ffffff;
+    
+    &:hover {
+      color: #ff0000;
+    }
+  }
+}
+
+/* Post Preview Cards */
+.post-preview {
+  border-bottom: 1px solid #1a1a1a;
+  
+  &:hover {
+    background-color: rgba(255, 0, 0, 0.03);
+  }
+}
+
+/* Post Meta */
+.post-meta {
+  color: #888888;
+  font-size: 0.85rem;
+  
+  i {
+    color: #ff0000;
+  }
+}
+
+/* Tags */
+.tag {
+  background-color: #0a0a0a;
+  border: 1px solid #333333;
+  color: #e8e8e8;
+  padding: 0.25rem 0.75rem;
+  border-radius: 4px;
+  transition: all 0.2s ease;
+  
+  &:hover {
+    background-color: rgba(255, 0, 0, 0.1);
+    border-color: #ff0000;
+    color: #ff0000;
+  }
+}
+
+/* Buttons */
+.btn {
+  border: 1px solid #ff0000;
+  color: #ff0000;
+  background-color: transparent;
+  transition: all 0.3s ease;
+  
+  &:hover {
+    background-color: #ff0000;
+    color: #000000;
+  }
+  
+  &-outline-primary {
+    border-color: #ff0000;
+    color: #ff0000;
+    
+    &:hover {
+      background-color: #ff0000;
+      color: #000000;
+    }
+  }
+}
+
+/* Code Blocks */
+.highlight,
+pre.highlight {
+  background-color: #0a0a0a;
+  border: 1px solid #1a1a1a;
+  border-left: 3px solid #ff0000;
+}
+
+code {
+  background-color: #0a0a0a;
+  color: #ff3333;
+  padding: 0.2em 0.4em;
+  border-radius: 3px;
+}
+
+/* Blockquotes */
+blockquote {
+  border-left: 4px solid #ff0000;
+  background-color: rgba(255, 0, 0, 0.05);
+  color: #d0d0d0;
+  padding: 1rem 1.5rem;
+}
+
+/* Search Bar */
+#search-input {
+  background-color: #0a0a0a;
+  border: 1px solid #1a1a1a;
+  color: #e8e8e8;
+  
+  &:focus {
+    border-color: #ff0000;
+    box-shadow: 0 0 0 0.2rem rgba(255, 0, 0, 0.15);
+  }
+}
+
+/* Table of Contents */
+#toc-wrapper {
+  border-left: 2px solid #1a1a1a;
+  
+  .toc-link {
+    color: #888888;
+    
+    &:hover {
+      color: #ff0000;
+    }
+    
+    &.active {
+      color: #ff0000;
+      font-weight: 600;
+    }
+  }
+}
+
+/* Pagination */
+.pagination {
+  .page-item {
+    .page-link {
+      background-color: #0a0a0a;
+      border-color: #1a1a1a;
+      color: #e8e8e8;
+      
+      &:hover {
+        background-color: rgba(255, 0, 0, 0.1);
+        border-color: #ff0000;
+        color: #ff0000;
+      }
+    }
+    
+    &.active .page-link {
+      background-color: #ff0000;
+      border-color: #ff0000;
+      color: #000000;
+    }
+    
+    &.disabled .page-link {
+      background-color: #0a0a0a;
+      border-color: #1a1a1a;
+      color: #444444;
+    }
+  }
+}
+
+/* Scrollbar - Red Theme */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #000000;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #ff0000;
+  border-radius: 4px;
+  
+  &:hover {
+    background: #ff3333;
+  }
+}
+
+/* Selection Color */
+::selection {
+  background: rgba(255, 0, 0, 0.3);
+  color: #ffffff;
+}
+
+::-moz-selection {
+  background: rgba(255, 0, 0, 0.3);
+  color: #ffffff;
+}
+
+/* Footer */
+footer {
+  background-color: #000000;
+  border-top: 1px solid #1a1a1a;
+  color: #888888;
+  
+  a {
+    color: #888888;
+    
+    &:hover {
+      color: #ff0000;
+    }
+  }
+}
+
+/* Archive Timeline */
+.timeline {
+  .timeline-item {
+    &::before {
+      background-color: #ff0000;
+    }
+  }
+}
+
+/* Categories & Tags Page */
+.category-item,
+.tag-item {
+  &:hover {
+    background-color: rgba(255, 0, 0, 0.05);
+  }
+}
+
+/* Back to Top Button */
+#back-to-top {
+  background-color: #ff0000;
+  color: #000000;
+  border: none;
+  
+  &:hover {
+    background-color: #ff3333;
+  }
+}
+
+/* Search Results */
+#search-results {
+  background-color: #0a0a0a;
+  border: 1px solid #1a1a1a;
+  
+  .post-title {
+    color: #ffffff;
+    
+    &:hover {
+      color: #ff0000;
+    }
+  }
+}
+
+/* Images */
+img {
+  border-radius: 4px;
+}
+
+/* Post Content Images */
+.post-content img {
+  box-shadow: 0 2px 8px rgba(255, 0, 0, 0.1);
+}
+
+/* Horizontal Rule */
+hr {
+  border-color: #1a1a1a;
+}
+
+/* Tables */
+table {
+  background-color: transparent;
+  
+  thead {
+    background-color: #0a0a0a;
+    color: #ffffff;
+  }
+  
+  tbody tr {
+    &:nth-child(odd) {
+      background-color: #000000;
+    }
+    
+    &:nth-child(even) {
+      background-color: #0a0a0a;
+    }
+    
+    &:hover {
+      background-color: rgba(255, 0, 0, 0.05);
+    }
+  }
+  
+  td, th {
+    border-color: #1a1a1a;
+  }
+}
+
+/* Breadcrumbs */
+.breadcrumb {
+  background-color: transparent;
+  
+  .breadcrumb-item {
+    color: #888888;
+    
+    &.active {
+      color: #ff0000;
+    }
+    
+    a {
+      color: #888888;
+      
+      &:hover {
+        color: #ff0000;
+      }
+    }
+  }
+}
+
+/* Focus States */
+*:focus {
+  outline-color: #ff0000 !important;
+  outline-offset: 2px;
+}
+
+/* Avatar/Profile Image Border */
+.avatar img,
+.profile-img {
+  border: 2px solid #ff0000;
+}
+
+/* Category/Tag Count Badge */
+.count {
+  background-color: #ff0000;
+  color: #000000;
+  border-radius: 12px;
+  padding: 0.2rem 0.5rem;
+  font-size: 0.75rem;
+  font-weight: 600;
+}
