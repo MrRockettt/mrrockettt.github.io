@@ -8,7 +8,8 @@ order: 4
 ---
   
 
-## Hi, I'm Salmon Kumar 👋  
+## Hi, I'm Salmon Kumar
+**Cybersecurity Engineer | Penetration Tester | Aspiring Red Teamer**  
 
 - Specializing in Network, Web, and API Penetration Testing.
 - Performing vulnerability assessments, security research, and delivering actionable reports.
@@ -31,11 +32,10 @@ Tirunelveli, Tamil Nadu
 *2019 – 2020*  
 Tirunelveli, Tamil Nadu
 
-
 ---
 
 
-### Skills  
+## 🚀 Skills  
 
 - **Penetration Testing:** Network, Web, API, Mobile (Android), Secure Code Review, Cloud Security (AWS Basics)  
 - **Tools & Frameworks:** Burp Suite, Nmap, Nessus, Wireshark, Postman, Metasploit, OWASP ZAP, Docker, Git  
@@ -65,7 +65,7 @@ Tirunelveli, Tamil Nadu
 
 **Download my resume:** [Resume PDF](/assets/resume/Salmon-Kumar.pdf)
 
-*Last Updated: [July 2025]*
+*Last Updated: [May 2025]*
 
 ---
 
@@ -83,4 +83,3 @@ I'm always interested in collaborating on security research projects, participat
 ---
 
 *"Security is not a product, but a process." - Bruce Schneier*
-
