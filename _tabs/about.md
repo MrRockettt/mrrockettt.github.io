@@ -32,11 +32,11 @@ Currently at **Talrop**, I focus on securing applications and infrastructure whi
 
 ### Experience
 
-- **Talrop** – Full Stack Developer Intern (May 2024 – Dec 2024)  
-  Developed and maintained web applications, gaining practical software engineering experience.
-
 - **Talrop** – Cybersecurity Engineer (Jan 2025 – Present)  
   Conducting penetration tests, vulnerability assessments, and security research on networks, web apps, and APIs.
+
+- **Talrop** – Full Stack Developer Intern (May 2024 – Dec 2024)  
+  Developed and maintained web applications, gaining practical software engineering experience.
 
 ---
 
