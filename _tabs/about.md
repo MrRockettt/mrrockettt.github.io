@@ -16,9 +16,24 @@ order: 4
 - Currently at **Talrop**, securing applications, networks, and infrastructure through VAPT.
 - Aspiring Red Teamer, exploring advanced offensive security techniques and threat simulations.
 
-  
 
 ---
+
+## 🎓 Education
+
+**Bachelor of Engineering in Computer Science and Engineering**  
+*SCAD College of Engineering and Technology*  
+*2020 – 2024 | CGPA: 7.8/10*  
+Tirunelveli, Tamil Nadu
+
+**Higher Secondary Certificate (HSC) – Maths Biology**  
+*Amir Jamal Higher Secondary School*  
+*2019 – 2020*  
+Tirunelveli, Tamil Nadu
+
+
+---
+
 
 ### Skills  
 
@@ -45,12 +60,27 @@ order: 4
 
 ---
 
-### Get In Touch
 
-Feel free to connect or collaborate!  
+## 📄 Resume
 
-- 📧 Email: salmonkumar1337@gmail.com  
-- 💼 LinkedIn: [linkedin.com/in/mrrockettt](https://linkedin.com/in/mrrockettt)  
-- 🐙 GitHub: [github.com/MrRockettt](https://github.com/MrRockettt)  
-- 🐦 X (Twitter): [twitter.com/mr_rockettt](https://twitter.com/mr_rockettt)  
-- 📸 Instagram: [instagram.com/mr_rockettt](https://instagram.com/mr_rockettt) 
+**Download my resume:** [Resume PDF](/assets/resume/Salmon-Kumar.pdf)
+
+*Last Updated: [Month Year]*
+
+---
+
+## 🤝 Let's Connect
+
+I'm always interested in collaborating on security research projects, participating in CTF teams, or discussing offensive security techniques. Whether you're looking for a penetration tester, security researcher, or just want to talk cybersecurity, feel free to reach out!
+
+**📧 Email:** [salmonkumar1337@gmail.com](mailto:salmonkumar1337@gmail.com)  
+**💼 LinkedIn:** [linkedin.com/in/mrrockettt](https://linkedin.com/in/mrrockettt)  
+**🐙 GitHub:** [github.com/MrRockettt](https://github.com/MrRockettt)  
+**🐦 X (Twitter):** [twitter.com/mr_rockettt](https://twitter.com/mr_rockettt)  
+**📸 Instagram:** [instagram.com/mr_rockettt](https://instagram.com/mr_rockettt)  
+
+
+---
+
+*"Security is not a product, but a process." - Bruce Schneier*
+
