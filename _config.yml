@@ -16,7 +16,7 @@ timezone:
 
 title: MrRockettt # the main title
 
-tagline: Cybersecurity Engineer # it will display as the subtitle
+tagline: Security Engineer | AppSec # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
   Cybersecurity Engineer | Penetration Tester | Aspiring Red Teamer
@@ -26,7 +26,7 @@ description: >- # used by seo meta and the atom feed
 url: "https://mrrockettt.github.io"
 
 github:
-  username: MrRockettt # change to your GitHub username
+  username: MrRockettt # change to your GitHub usern~ame
 
 twitter:
   username: mr_rockettt # change to your Twitter username
