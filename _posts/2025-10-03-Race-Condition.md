@@ -199,11 +199,6 @@ This finding highlights several important security concepts:
 
 **Testing Matters**: Standard sequential testing wouldn't have revealed this vulnerability. Creative testing approaches are essential.
 
-## Timeline
-
-- **Discovery Date**: [29th May, 2025]
-- **Vendor Response**: [30th May, 2025]
-- **Status**: [Duplicate]
 
 ## Conclusion
 

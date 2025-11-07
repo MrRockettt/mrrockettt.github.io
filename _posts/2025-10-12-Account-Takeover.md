@@ -20,7 +20,7 @@ During a security assessment, I discovered a critical authentication vulnerabili
 **Type**: Authentication Bypass / Account Takeover  
 **Attack Complexity**: Low  
 **User Interaction**: None  
-**Status**: Duplicate (P2)
+
 
 The core issue is that OAuth-registered accounts can change their email address without triggering proper re-authentication or verification mechanisms. This creates a dangerous scenario where attackers can manipulate email associations while maintaining persistent access through their original OAuth credentials, effectively taking over victim accounts.
 
