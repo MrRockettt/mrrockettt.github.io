@@ -63,7 +63,7 @@ Tirunelveli, Tamil Nadu
 
 ## 📄 Resume
 
-**Download my resume:** [Resume PDF](/assets/resume/Salmon-Kumar.pdf)
+**Download my resume:** [Resume PDF](/assets/resume/Salmon_Kumar.pdf)
 
 *Last Updated: [March 2025]*
 
