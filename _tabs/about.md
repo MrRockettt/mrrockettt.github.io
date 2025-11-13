@@ -76,8 +76,8 @@ I'm always interested in collaborating on security research projects, participat
 **📧 Email:** [salmonkumar1337@gmail.com](mailto:salmonkumar1337@gmail.com)  
 **💼 LinkedIn:** [linkedin.com/in/mrrockettt](https://linkedin.com/in/mrrockettt)  
 **🐙 GitHub:** [github.com/MrRockettt](https://github.com/MrRockettt)  
-**🐦 X (Twitter):** [twitter.com/mr_rockettt](https://twitter.com/mr_rockettt)  
-**📸 Instagram:** [instagram.com/mr_rockettt](https://instagram.com/mr_rockettt)  
+**🐦 X (Twitter):** [twitter.com/0xsalm0n](https://twitter.com/0xsalm0n)  
+**📸 Instagram:** [instagram.com/0xsalmon](https://instagram.com/0xsalmon)  
 
 
 ---
