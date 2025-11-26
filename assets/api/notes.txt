@@ -4,6 +4,7 @@ Open Redirect:
 https://mrrockettt.github.io/assets/api/redirect.html
 
 rlogin.json -> rlogin.yaml -> Redirecting to evil
+https://mrrockettt.github.io/assets/api/rlogin.json
 https://mrrockettt.github.io/assets/api/rlogin.yaml
 
 
@@ -20,19 +21,25 @@ https://mrrockettt.github.io/assets/api/login.yaml
 
 ?configUrl=payloads:
 test.json -> poc.yaml -> id payload
+https://mrrockettt.github.io/assets/api/test.json
 https://mrrockettt.github.io/assets/api/poc.yaml
 
 test1.json -> test.yaml -> length alert
+https://mrrockettt.github.io/assets/api/test1.json
 https://mrrockettt.github.io/assets/api/test.yaml
 
 test2.json -> test1.yaml -> encoded length
+https://mrrockettt.github.io/assets/api/test2.json
 https://mrrockettt.github.io/assets/api/test1.yaml
 
 xss_credentials_form.json -> poc1.yaml -> get document cookie
+https://mrrockettt.github.io/assets/api/xss_credentials_form.json
 https://mrrockettt.github.io/assets/api/poc1.yaml
 
 xsscookie.json -> xsscookie.yaml -> get document cookie
+https://mrrockettt.github.io/assets/api/xsscookie.json
 https://mrrockettt.github.io/assets/api/xsscookie.yaml
 
 login.json -> login.yaml -> yaml login page
+https://mrrockettt.github.io/assets/api/login.json
 https://mrrockettt.github.io/assets/api/login.yaml
