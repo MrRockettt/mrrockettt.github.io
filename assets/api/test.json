@@ -1,82 +1,17 @@
 {
   "urls": [
     {
-      "url": "https://mrrockettt.github.io/assets/api/poc1.yaml",
+      "url": "https://raw.githubusercontent.com/mrrockettt/mrrockettt.github.io/main/assets/api/poc.yaml",
       "name": "POC1 - Credentials API"
     },
     {
-      "url": "https://mrrockettt.github.io/assets/api/poc2.yaml",
+      "url": "https://raw.githubusercontent.com/mrrockettt/mrrockettt.github.io/main/assets/api/poc1.yaml",
       "name": "POC2 - User Management"
     },
     {
-      "url": "https://mrrockettt.github.io/assets/api/poc3.yaml",
+      "url": "https://raw.githubusercontent.com/mrrockettt/mrrockettt.github.io/main/assets/api/pocc.yaml",
       "name": "POC3 - Authentication"
-    },
-    {
-      "url": "https://raw.githubusercontent.com/mrrockettt/mrrockettt.github.io/main/assets/api/poc1.yaml",
-      "name": "POC1 - RAW GitHub (CORS Bypass)"
-    },
-    {
-      "url": "https://cors-anywhere.herokuapp.com/https://mrrockettt.github.io/assets/api/poc1.yaml",
-      "name": "POC1 - Via CORS Proxy"
-    },
-    {
-      "url": "https://api.allorigins.win/raw?url=https://mrrockettt.github.io/assets/api/poc1.yaml",
-      "name": "POC1 - Via AllOrigins Proxy"
     }
   ],
-  "urls.primaryName": "POC1 - Credentials API",
-  "validatorUrl": null,
-  "displayRequestDuration": true,
-  "filter": true,
-  "tryItOutEnabled": true,
-  "requestSnippetsEnabled": true,
-  "requestSnippets": {
-    "generators": {
-      "curl_bash": {
-        "title": "cURL (bash)",
-        "syntax": "bash"
-      },
-      "curl_powershell": {
-        "title": "cURL (PowerShell)",
-        "syntax": "powershell"
-      },
-      "curl_cmd": {
-        "title": "cURL (CMD)",
-        "syntax": "bash"
-      }
-    },
-    "defaultExpanded": true
-  },
-  "deepLinking": true,
-  "displayOperationId": true,
-  "defaultModelsExpandDepth": 5,
-  "defaultModelExpandDepth": 5,
-  "defaultModelRendering": "example",
-  "showExtensions": true,
-  "showCommonExtensions": true,
-  "persistAuthorization": true,
-  "withCredentials": false,
-  "useUnsafeMarkdown": true,
-  "docExpansion": "full",
-  "maxDisplayedTags": 9999,
-  "operationsSorter": null,
-  "tagsSorter": null,
-  "syntaxHighlight": {
-    "activate": true,
-    "theme": "monokai"
-  },
-  "supportedSubmitMethods": [
-    "get",
-    "put",
-    "post",
-    "delete",
-    "options",
-    "head",
-    "patch",
-    "trace"
-  ],
-  "showMutatedRequest": true,
-  "queryConfigEnabled": true,
-  "apisSorter": "alpha"
+  "validatorUrl": null
 }
