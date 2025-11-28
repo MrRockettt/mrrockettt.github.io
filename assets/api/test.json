@@ -1,17 +1,22 @@
 {
+  "url": "https://mrrockettt.github.io/assets/api/poc1.yaml",
   "urls": [
     {
-      "url": "https://raw.githubusercontent.com/mrrockettt/mrrockettt.github.io/main/assets/api/poc.yaml",
-      "name": "POC1 - Credentials API"
-    },
-    {
-      "url": "https://raw.githubusercontent.com/mrrockettt/mrrockettt.github.io/main/assets/api/poc1.yaml",
-      "name": "POC2 - User Management"
-    },
-    {
-      "url": "https://raw.githubusercontent.com/mrrockettt/mrrockettt.github.io/main/assets/api/pocc.yaml",
-      "name": "POC3 - Authentication"
+      "name": "Primary PoC",
+      "url": "https://mrrockettt.github.io/assets/api/poc1.yaml"
     }
   ],
-  "validatorUrl": null
+
+  "validatorUrl": null,
+
+  "deepLinking": true,
+  "persistAuthorization": true,
+  "displayOperationId": true,
+  "displayRequestDuration": true,
+  "defaultModelRendering": "model",
+  "docExpansion": "none",
+
+  "syntaxHighlight": {
+    "activated": true
+  }
 }
