@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>XSS Credentials Form API - Swagger Documentation</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/swagger-ui/5.10.3/swagger-ui.min.css"
+    />
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+          sans-serif;
+      }
+      .header {
+        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        color: white;
+        padding: 20px;
+        text-align: center;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+      }
+      .header h1 {
+        margin: 0;
+        font-size: 24px;
+      }
+      .header p {
+        margin: 8px 0 0 0;
+        opacity: 0.9;
+        font-size: 14px;
+      }
+      #swagger-ui {
+        max-width: 1400px;
+        margin: 0 auto;
+      }
+      .loading {
+        text-align: center;
+        padding: 60px 20px;
+        color: #666;
+      }
+      .loading h2 {
+        margin: 0 0 15px 0;
+        color: #667eea;
+      }
+      .spinner {
+        border: 4px solid #f3f3f3;
+        border-top: 4px solid #667eea;
+        border-radius: 50%;
+        width: 40px;
+        height: 40px;
+        animation: spin 1s linear infinite;
+        margin: 20px auto;
+      }
+      @keyframes spin {
+        0% {
+          transform: rotate(0deg);
+        }
+        100% {
+          transform: rotate(360deg);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="header">
+      <h1>🔐 XSS Credentials Form API Documentation</h1>
+      <p>Zero CORS Issues - Self-Hosted Solution</p>
+    </div>
+
+    <div id="swagger-ui">
+      <div class="loading">
+        <h2>Loading API Documentation...</h2>
+        <div class="spinner"></div>
+        <p>Fetching specification from GitHub</p>
+      </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/swagger-ui/5.10.3/swagger-ui-bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/swagger-ui/5.10.3/swagger-ui-standalone-preset.min.js"></script>
+    <script>
+      // Configuration
+      const swaggerConfig = {
+        // Direct raw GitHub URL - NO PROXY NEEDED when both are on GitHub
+        url: "https://raw.githubusercontent.com/mrrockettt/mrrockettt.github.io/main/assets/api/xss_credentials_form.yaml",
+
+        dom_id: "#swagger-ui",
+
+        // Disable validator to avoid CORS
+        validatorUrl: null,
+
+        // Enhanced features
+        deepLinking: true,
+        displayRequestDuration: true,
+        displayOperationId: true,
+        filter: true,
+        tryItOutEnabled: true,
+        requestSnippetsEnabled: true,
+        showExtensions: true,
+        showCommonExtensions: true,
+        persistAuthorization: true,
+        docExpansion: "list",
+        defaultModelsExpandDepth: 3,
+        defaultModelExpandDepth: 3,
+
+        // All HTTP methods
+        supportedSubmitMethods: [
+          "get",
+          "put",
+          "post",
+          "delete",
+          "options",
+          "head",
+          "patch",
+          "trace",
+        ],
+
+        // Syntax highlighting
+        syntaxHighlight: {
+          activate: true,
+          theme: "monokai",
+        },
+
+        // Required presets
+        presets: [SwaggerUIBundle.presets.apis, SwaggerUIStandalonePreset],
+        plugins: [SwaggerUIBundle.plugins.DownloadUrl],
+        layout: "StandaloneLayout",
+
+        // Error handling
+        onComplete: function () {
+          console.log("✅ Swagger UI loaded successfully!");
+        },
+        onFailure: function (error) {
+          console.error("❌ Failed to load Swagger UI:", error);
+          document.getElementById("swagger-ui").innerHTML = `
+                    <div style="padding: 40px; text-align: center; color: #dc3545;">
+                        <h2>❌ Failed to Load API Documentation</h2>
+                        <p style="margin: 20px 0;">The YAML file could not be loaded.</p>
+                        <p style="color: #666; font-size: 14px;">Error: ${
+                          error.message || "Unknown error"
+                        }</p>
+                        <p style="color: #666; font-size: 14px; margin-top: 20px;">
+                            Possible causes:<br>
+                            • YAML file doesn't exist at the specified path<br>
+                            • YAML file has syntax errors<br>
+                            • GitHub repository is private<br>
+                            • Branch name is incorrect (main vs master)
+                        </p>
+                        <button onclick="location.reload()" style="margin-top: 20px; padding: 10px 20px; background: #667eea; color: white; border: none; border-radius: 4px; cursor: pointer;">
+                            Retry
+                        </button>
+                    </div>
+                `;
+        },
+      };
+
+      // Initialize Swagger UI
+      try {
+        const ui = SwaggerUIBundle(swaggerConfig);
+        window.ui = ui;
+
+        console.log(
+          "%c🚀 Swagger UI Initialized",
+          "color: #667eea; font-size: 16px; font-weight: bold;"
+        );
+        console.log("Configuration:", swaggerConfig);
+      } catch (error) {
+        console.error("❌ Initialization Error:", error);
+        document.getElementById("swagger-ui").innerHTML = `
+                <div style="padding: 40px; text-align: center; color: #dc3545;">
+                    <h2>❌ Initialization Failed</h2>
+                    <p>Error: ${error.message}</p>
+                    <p style="color: #666; margin-top: 20px;">Check the browser console for more details.</p>
+                </div>
+            `;
+      }
+    </script>
+  </body>
+</html>
