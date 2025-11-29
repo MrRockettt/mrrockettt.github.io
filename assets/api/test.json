@@ -1,9 +1,9 @@
 {
-  "url": "https://mrrockettt.github.io/assets/api/poc1.yaml",
+  "url": "https://mrrockettt.github.io/assets/api/test.yaml",
   "urls": [
     {
       "name": "Primary PoC",
-      "url": "https://mrrockettt.github.io/assets/api/poc1.yaml"
+      "url": "https://mrrockettt.github.io/assets/api/test.yaml"
     }
   ],
 
