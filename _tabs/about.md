@@ -80,5 +80,4 @@ I'm always interested in collaborating on security research projects, participat
 **📸 Instagram:** [instagram.com/0xsalmon](https://instagram.com/0xsalmon)  
 
 ---
-
-*"Security is not a product, but a process." - Bruce Schneier*
+*"There is no patch for human stupidity." — Kevin Mitnick*
