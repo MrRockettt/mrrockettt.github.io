@@ -26,7 +26,7 @@ description: >- # used by seo meta and the atom feed
 url: "https://0xsalm0n.github.io"
 
 github:
-  username: MrRockettt # change to your GitHub usern~ame
+  username: 0xSalm0n # change to your GitHub usern~ame
 
 twitter:
   username: 0xSalmon_ # change to your Twitter username
@@ -38,11 +38,11 @@ social:
   email: salmonkumar1337@gmail.com # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    - https://x.com/mr_rockettt # change to your Twitter homepage
-    - https://github.com/MrRockettt # change to your GitHub homepage
+    - https://x.com/0xSalm0n # change to your Twitter homepage
+    - https://github.com/0xSalm0n # change to your GitHub homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
-    - https://www.linkedin.com/in/mrrockettt
+    - https://www.linkedin.com/in/0xSalmon
 
 # Site Verification Settings
 webmaster_verifications:

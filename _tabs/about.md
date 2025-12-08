@@ -1,7 +1,7 @@
 ---
 # the default layout is 'page'
 title: About
-description: About Salmon Kumar, Cyber Security Engineer & Penetration Tester
+description: About Salmon Kumar, Security Engineer & Penetration Tester
 permalink: /about/
 icon: fas fa-info-circle
 order: 4
@@ -74,9 +74,9 @@ Tirunelveli, Tamil Nadu
 I'm always interested in collaborating on security research projects, participating in CTF teams, or discussing offensive security techniques. Whether you're looking for a penetration tester, security researcher, or just want to talk cybersecurity, feel free to reach out!
 
 **📧 Email:** [salmonkumar1337@gmail.com](mailto:salmonkumar1337@gmail.com)  
-**💼 LinkedIn:** [linkedin.com/in/mrrockettt](https://linkedin.com/in/mrrockettt)  
-**🐙 GitHub:** [github.com/MrRockettt](https://github.com/MrRockettt)  
-**🐦 X (Twitter):** [twitter.com/0xsalm0n](https://twitter.com/0xsalm0n)  
+**💼 LinkedIn:** [linkedin.com/in/0xsalmon](https://linkedin.com/in/0xsalmon)  
+**🐙 GitHub:** [github.com/0xSalm0n](https://github.com/0xSalm0n)  
+**🐦 X (Twitter):** [twitter.com/0xSalm0n](https://twitter.com/0xSalm0n)  
 **📸 Instagram:** [instagram.com/0xsalmon](https://instagram.com/0xsalmon)  
 
 ---
