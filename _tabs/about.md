@@ -11,7 +11,7 @@ order: 4
 ## Hi, I'm Salmon Kumar
 **Cybersecurity Engineer | Penetration Tester | Application Security**  
 
-- Specializing in Network, Web, and API Penetration Testing.
+- Specializing in Network, Web Application, API and Mobile Application(android) Penetration Testing.
 - Performing vulnerability assessments, security research, and delivering actionable reports.
 - Proficient in Linux, Bash scripting, workflow automation, and secure coding practices.
 - Currently at [**Talrop**](https://talrop.com), securing applications, networks, and infrastructure through VAPT.
@@ -37,7 +37,7 @@ Tirunelveli, Tamil Nadu
 
 ## 🚀 Skills  
 
-- **Penetration Testing:** Network, Web, API, Mobile (Android), Secure Code Review, Cloud Security (AWS Basics)  
+- **Penetration Testing:** Network, Web, API, Mobile (Android), Secure Code Review, Cloud Security  
 - **Tools & Frameworks:** Burp Suite, Nmap, Nessus, Wireshark, Postman, Metasploit, OWASP ZAP, Docker, Git  
 - **Programming & Scripting:** Python, Bash, JavaScript, C, SQL  
 - **Security Research:** Vulnerability Analysis, OSINT, Exploit Development, Threat Modeling, CTF Challenges  
