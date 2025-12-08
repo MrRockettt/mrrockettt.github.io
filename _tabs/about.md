@@ -14,7 +14,7 @@ order: 4
 - Specializing in Network, Web, and API Penetration Testing.
 - Performing vulnerability assessments, security research, and delivering actionable reports.
 - Proficient in Linux, Bash scripting, workflow automation, and secure coding practices.
-- Currently at **Talrop**, securing applications, networks, and infrastructure through VAPT.
+- Currently at [**Talrop**](https://talrop.com), securing applications, networks, and infrastructure through VAPT.
 - Aspiring Red Teamer, exploring advanced offensive security techniques and threat simulations.
 
 
@@ -65,7 +65,7 @@ Tirunelveli, Tamil Nadu
 
 **Download my resume:** [Resume PDF](/assets/resume/Salmon_Kumar.pdf)
 
-*Last Updated: [March 2025]*
+*Last Updated: [December 2025]*
 
 ---
 
