@@ -27,7 +27,7 @@ order: 4
 - **Tools & Frameworks:** Burp Suite, Nmap, Nessus, Wireshark, Postman, Metasploit, OWASP ZAP, Docker, Git  
 - **Programming & Scripting:** Python, Bash, JavaScript, C, SQL  
 - **Security Research:** Vulnerability Analysis, OSINT, Exploit Development, Threat Modeling, CTF Challenges  
-- **Professional Skills:** Security Report Writing, Agile Workflows, Developer Collaboration  
+- **Professional Skills:** Security Research, Agile Workflows, Developer Collaboration  
 
 
 ---
@@ -39,7 +39,7 @@ order: 4
   - Performing endpoint security hardening and simulating real-world attack scenarios.  
   - Researching emerging threats and delivering detailed security reports with remediation steps.  
 
-- **Talrop** – *Full Stack Developer Intern* (May 2024 – Dec 2024)  
+- **Talrop** – *Full-Stack Developer Intern* (May 2024 – Dec 2024)  
   - Designed and maintained web applications with a focus on secure coding practices.  
   - Collaborated on backend APIs, database management, and deployment processes.  
   - Worked in agile workflows, gaining strong hands-on experience in debugging and development.  
