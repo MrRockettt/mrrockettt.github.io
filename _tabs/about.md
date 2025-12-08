@@ -9,7 +9,7 @@ order: 4
   
 
 ## Hi, I'm Salmon Kumar
-**Cybersecurity Engineer | Penetration Tester | Aspiring Red Teamer**  
+**Cybersecurity Engineer | Penetration Tester | Application Security**  
 
 - Specializing in Network, Web, and API Penetration Testing.
 - Performing vulnerability assessments, security research, and delivering actionable reports.
