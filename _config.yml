@@ -29,7 +29,7 @@ github:
   username: 0xSalm0n # change to your GitHub usern~ame
 
 twitter:
-  username: 0xSalmon_ # change to your Twitter username
+  username: 0xSalm0n # change to your Twitter username
 
 social:
   # Change to your full name.
@@ -42,7 +42,7 @@ social:
     - https://github.com/0xSalm0n # change to your GitHub homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
-    - https://www.linkedin.com/in/0xSalmon
+    - https://www.linkedin.com/in/0xsalmon
 
 # Site Verification Settings
 webmaster_verifications:
