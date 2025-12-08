@@ -20,20 +20,6 @@ order: 4
 
 ---
 
-## 🎓 Education
-
-**Bachelor of Engineering in Computer Science and Engineering**  
-*SCAD College of Engineering and Technology*  
-*2020 – 2024 | CGPA: 7.8/10*  
-Tirunelveli, Tamil Nadu
-
-**Higher Secondary Certificate (HSC) – Maths Biology**  
-*Amir Jamal Higher Secondary School*  
-*2019 – 2020*  
-Tirunelveli, Tamil Nadu
-
----
-
 
 ## 🚀 Skills  
 
@@ -57,6 +43,20 @@ Tirunelveli, Tamil Nadu
   - Designed and maintained web applications with a focus on secure coding practices.  
   - Collaborated on backend APIs, database management, and deployment processes.  
   - Worked in agile workflows, gaining strong hands-on experience in debugging and development.  
+
+---
+
+## 🎓 Education
+
+**Bachelor of Engineering in Computer Science and Engineering**  
+*SCAD College of Engineering and Technology*  
+*2020 – 2024 | CGPA: 7.8/10*  
+Tirunelveli, Tamil Nadu
+
+**Higher Secondary Certificate (HSC) – Maths Biology**  
+*Amir Jamal Higher Secondary School*  
+*2019 – 2020*  
+Tirunelveli, Tamil Nadu
 
 ---
 
