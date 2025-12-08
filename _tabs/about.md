@@ -29,7 +29,6 @@ order: 4
 - **Security Research:** Vulnerability Analysis, OSINT, Exploit Development, Threat Modeling, CTF Challenges  
 - **Professional Skills:** Security Research, Agile Workflows, Developer Collaboration  
 
-
 ---
 
 ## 💼 Experience  
