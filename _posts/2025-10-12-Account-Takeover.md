@@ -1,6 +1,6 @@
 ---
 title: "OAuth Account Takeover: Exploiting Email Change Without Re-authentication"
-date: 2025-10-13 10:00:00 +0530
+date: 2024-11-24 10:00:00 +0530
 categories: [Bug Bounty, Web Security]
 tags: [oauth, account-takeover, authentication, vulnerability]
 image:
@@ -12,7 +12,7 @@ image:
 
 During a security assessment, I discovered a critical authentication vulnerability that enables complete account takeover through OAuth login flow exploitation. The vulnerability lies in how the application handles email changes for OAuth-registered accounts, allowing attackers to hijack victim accounts without any verification mechanism.
 
-> **Note**: This vulnerability was identified as a duplicate (P2) during the triage process. While it didn't result in a bounty, it represents an important real-world authentication security risk.
+> **Disclosure**: This vulnerability was responsibly disclosed and resulted in a **$200 CAD bounty**. The vendor has since patched the issue.
 
 ## Vulnerability Overview
 
@@ -20,9 +20,9 @@ During a security assessment, I discovered a critical authentication vulnerabili
 **Type**: Authentication Bypass / Account Takeover  
 **Attack Complexity**: Low  
 **User Interaction**: None  
+**Bounty Awarded**: $200 CAD
 
-
-The core issue is that OAuth-registered accounts can change their email address without triggering proper re-authentication or verification mechanisms. This creates a dangerous scenario where attackers can manipulate email associations while maintaining persistent access through their original OAuth credentials, effectively taking over victim accounts.
+The core issue is that OAuth-registered accounts could change their email address without triggering proper re-authentication or verification mechanisms. This created a dangerous scenario where attackers could manipulate email associations while maintaining persistent access through their original OAuth credentials, effectively taking over victim accounts.
 
 ## Technical Analysis
 
@@ -115,15 +115,15 @@ This vulnerability enables several attack vectors:
 
 The vulnerability stems from multiple security oversights:
 
-**Missing Email Verification**: The application doesn't send verification emails to new addresses when users change their email, a fundamental security requirement for identity-critical information.
+**Missing Email Verification**: The application didn't send verification emails to new addresses when users changed their email, a fundamental security requirement for identity-critical information.
 
-**Weak Session Management**: OAuth authentication tokens remain valid even after critical account changes, violating proper session handling principles.
+**Weak Session Management**: OAuth authentication tokens remained valid even after critical account changes, violating proper session handling principles.
 
 **Insufficient Re-authentication**: Email changes should require strong authentication, potentially including current OAuth provider confirmation, not just a password check.
 
 **Poor Identity Binding**: The application failed to properly link OAuth identity with account email, creating ambiguity about true account ownership.
 
-## Recommended Fixes
+## Recommended Remediation
 
 **Immediate Actions:**
 - Implement email verification for all email changes
@@ -137,26 +137,27 @@ The vulnerability stems from multiple security oversights:
 - Implement rate limiting on account modification endpoints
 - Conduct regular security audits of authentication flows
 
-## Timeline
+## Disclosure Timeline
 
-- **Discovery Date**: 24th November 2024
-- **Vendor Response**: 27th November 2024
-- **Triage Result**: Duplicate (P2)
-- **Status**: Closed as duplicate
+- **Discovery Date**: November 24, 2024
+- **Initial Report**: November 24, 2024
+- **Vendor Response**: November 27, 2024
+- **Bounty Awarded**: $200 CAD
+- **Patch Deployed**: December 24, 2024
 
-## Lessons Learned
+## Key Takeaways
 
-This finding reinforces critical security principles:
+This finding reinforces several critical security principles:
 
 **Defense in Depth**: Multiple security controls should protect critical operations. Single control failures shouldn't lead to complete compromise.
 
 **OAuth Integration Complexity**: OAuth simplifies user experience but adds complexity to authentication flows. Every integration point requires careful security consideration.
 
-**The Value of Duplicates**: While this was marked duplicate, it validated the severity of the issue and demonstrated independent discovery. Not every vulnerability is unique, but thorough documentation builds valuable portfolio evidence.
+**Thorough Testing Pays Off**: Testing authentication flows comprehensively, including edge cases and state transitions, often reveals critical vulnerabilities that automated scanners miss.
 
-**Speed Matters**: In bug bounty programs, being first to report can make the difference between recognition and duplication.
+**Responsible Disclosure Works**: Working collaboratively with vendors through responsible disclosure programs benefits everyone—security researchers gain recognition and compensation, while organizations can fix issues before exploitation.
 
-For security researchers, this case study emphasizes the importance of testing authentication flows thoroughly, considering how features interact, thinking like an attacker to find unexpected state transitions, and maintaining persistence even when findings turn out to be duplicates.
+For security researchers, this case study emphasizes the importance of understanding how features interact, thinking like an attacker to find unexpected state transitions, documenting findings thoroughly with clear reproduction steps, and maintaining professionalism throughout the disclosure process.
 
 ## References
 
@@ -165,3 +166,5 @@ For security researchers, this case study emphasizes the importance of testing a
 - [CWE-287: Improper Authentication](https://cwe.mitre.org/data/definitions/287.html)
 
 ---
+
+**Disclaimer**: This write-up is for educational purposes only. The vulnerability has been patched by the vendor. Always practice responsible disclosure and only test systems you have explicit permission to assess.
