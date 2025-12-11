@@ -1,0 +1,133 @@
+---
+---
+
+@import 'main';
+
+// Black & Red Hacker Theme Override
+:root {
+  // Background colors
+  --body-bg: #000000;
+  --main-bg: #0a0a0a;
+  --card-bg: #1a0000;
+  --mask-bg: rgba(0, 0, 0, 0.9);
+
+  // Text colors
+  --text-color: #ff3333;
+  --text-muted-color: #cc0000;
+  --heading-color: #ff0000;
+  --label-color: #ff6666;
+
+  // Link colors
+  --link-color: #ff0000;
+  --link-hover-color: #ff4444;
+  --link-underline-color: #660000;
+
+  // Sidebar & Navigation
+  --sidebar-bg: #000000;
+  --nav-cursor-color: #ff0000;
+
+  // Topbar
+  --topbar-bg: #0d0000;
+  --topbar-text-color: #ff3333;
+
+  // Search
+  --search-bg: #0a0a0a;
+  --search-border-color: #330000;
+
+  // Code blocks
+  --code-bg: #0d0000;
+  --highlighter-rouge-color: #ff0000;
+
+  // Border & Lines
+  --border-color: #330000;
+  --hr-color: #660000;
+
+  // Buttons
+  --btn-bg: #1a0000;
+  --btn-border-color: #ff0000;
+
+  // Scrollbar
+  --scrollbar-track-bg: #000000;
+  --scrollbar-thumb-bg: #ff0000;
+
+  // Tables
+  --tb-odd-bg: #0a0000;
+  --tb-even-bg: #0d0000;
+  --tb-border-color: #330000;
+
+  // Tags & Categories
+  --tag-bg: #1a0000;
+  --tag-hover-bg: #330000;
+
+  // Timeline
+  --timeline-color: #ff0000;
+  --timeline-node-bg: #ff0000;
+}
+
+// Additional hacker-themed styling
+body {
+  text-shadow: 0 0 2px rgba(255, 0, 0, 0.3);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #ff0000 !important;
+  text-shadow: 0 0 5px rgba(255, 0, 0, 0.5);
+}
+
+a {
+  transition: all 0.3s ease;
+
+  &:hover {
+    text-shadow: 0 0 8px rgba(255, 0, 0, 0.8);
+  }
+}
+
+#sidebar {
+  border-right: 1px solid #ff0000;
+  box-shadow: 2px 0 10px rgba(255, 0, 0, 0.2);
+}
+
+.card {
+  border: 1px solid #330000;
+  box-shadow: 0 4px 15px rgba(255, 0, 0, 0.1);
+
+  &:hover {
+    border-color: #ff0000;
+    box-shadow: 0 4px 20px rgba(255, 0, 0, 0.3);
+  }
+}
+
+// Glowing effect for code blocks
+pre,
+code {
+  border: 1px solid #330000;
+  box-shadow: 0 0 10px rgba(255, 0, 0, 0.1);
+}
+
+// Tags styling
+.tag {
+  border: 1px solid #ff0000;
+
+  &:hover {
+    background: #ff0000 !important;
+    color: #000000 !important;
+    box-shadow: 0 0 10px rgba(255, 0, 0, 0.6);
+  }
+}
+
+// Button styling
+.btn {
+  border: 1px solid #ff0000;
+  color: #ff0000;
+
+  &:hover {
+    background: #ff0000;
+    color: #000000;
+    box-shadow: 0 0 15px rgba(255, 0, 0, 0.8);
+  }
+}
