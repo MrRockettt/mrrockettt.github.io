@@ -9,7 +9,7 @@ order: 4
   
 
 ## Hi, I'm Salmon Kumar
-**Cybersecurity Engineer | Penetration Tester | Application Security**  
+**Security Engineer | Penetration Tester | Application Security**  
 
 - Specializing in Network, Web Application, API and Mobile Application(android) Penetration Testing.
 - Performing vulnerability assessments, security research, and delivering actionable reports.
